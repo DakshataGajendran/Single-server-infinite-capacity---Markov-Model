@@ -1,8 +1,10 @@
 # Single server with infinite capacity (M/M/1):(oo/FIFO)
 ## Aim :
+
 To find (a) average number of materials in the system (b) average number of materials in the conveyor (c) waiting time of each material in the system (d) waiting time of each material in the conveyor, if the arrival  of materials follow poisson process with the mean interval time 12 seconds, serivice time of lathe machine follows exponential distribution with mean serice time 1 second and average service time of robot is 7seconds.
 
 ## Software required :
+
 Visual components and Python
 
 ## Theory:
@@ -19,10 +21,13 @@ This is a queuing model in which the arrival is Marcovian and departure distribu
 
 
 ## Experiment:
-![ou](./12.png)
-
+![OP](E1.png)
+![OP](E2.png)
+ 
 ## Program
 ```
+NAME : DAKSHATA G
+REG NO: 212223240021
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ser_time=float(input("Enter the mean  inter service time of Lathe Machine (in secs) :  "))
 Robot_time=float(input("Enter the Additional time taken for the Robot (in secs) :  "))
@@ -48,10 +53,13 @@ else:
     print("Warning! Objects Over flow will happen in the conveyor")
 print("---------------------------------------------------------------")
 
-
 ```
-## Output 
-![ou](./15.png)
+## Output :
 
-## Result 
-Thus the program was executed sucessfully and got the output.
+![OP](OP1.png)
+![OP](OP2.png)
+![OP](OP3.png)
+
+## Result :
+
+Single server with infinite capacity (M/M/1):(oo/FIFO) has done  successfully using Visual components.
