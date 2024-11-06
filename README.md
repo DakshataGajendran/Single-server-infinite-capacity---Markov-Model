@@ -55,10 +55,8 @@ print("---------------------------------------------------------------")
 
 ```
 ## Output :
+![image](https://github.com/user-attachments/assets/7e6d439a-77cd-4d2d-bd82-b2967709b87b)
 
-![OP](OP1.png)
-![OP](OP2.png)
-![OP](OP3.png)
 
 ## Result :
 
